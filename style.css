@@ -175,6 +175,7 @@ gap: 10px;
 }
 .login-box:hover{
     box-shadow: 0px 0px 35px #1d78b0;
+    transform: scale(1.06);
 }
 .login-box h4{
     color: var(--BLACK, #2B2F34);
@@ -444,6 +445,12 @@ border-radius: 9px;
 border: 2px solid var(--primaryskyblue, #2F80ED);
 background: #FFF;
 }
+.card-1:hover{
+    box-shadow: 0px 0px 30px gray;
+}
+.card-2:hover{
+    box-shadow: 0px 0px 30px rgb(171, 108, 101);
+}
   .placements{
     width: 100vw;
     height: 794px;
@@ -512,6 +519,9 @@ letter-spacing: 0.36px;
     gap:70px;
     margin-top: -500px;
 }
+.companies img:hover{
+    transform: scale(1.325);
+}
 .companies-1{
     display: flex;
     flex-direction: row;
@@ -519,6 +529,9 @@ letter-spacing: 0.36px;
     align-items: center;
     gap: 70px;
     margin-top: 48px;
+}
+.companies-1 img:hover{
+    transform: scale(1.325);
 }
 .companies-2{
     display: flex;
@@ -528,6 +541,9 @@ letter-spacing: 0.36px;
     gap: 65px;
     margin-top: 48px;
 }
+.companies-2 img:hover{
+    transform: scale(1.325);
+}
 .report{
     border-radius: 8px;
 background: var(--primaryskyblue, #2F80ED);
@@ -536,6 +552,7 @@ transition: all 1s ease-in-out;
 }
 .report:hover{
     box-shadow: 0px 0px 20px lightslategray;
+    transform: scale(1.25);
 }
 .wall-of-love{
     width: 100vw;
@@ -688,6 +705,10 @@ line-height: 150%; /* 33px */
     padding-bottom: 138px;
     row-gap: 30px;
 }
+.virat:hover,.ahmed:hover,.sehwag:hover,.rohith:hover,.sachin:hover,.kishan:hover{
+    transform: scale(1.025);
+}
+
 .rohith{
     display: inline-flex;
 padding: 24px;
