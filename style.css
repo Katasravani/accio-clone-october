@@ -512,10 +512,8 @@ letter-spacing: 0.36px;
     align-items: center;
   }
 .companies{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    width: 90vw;
+    margin-inline: 30px;
     gap:70px;
     margin-top: -500px;
 }
